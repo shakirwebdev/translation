@@ -29,6 +29,6 @@
         }
     ],
     "require": {
-        "shakirwebdev/genesis": "^1.0"
+        "shakirwebdev/genesis": "dev-main"
     }
 }
