@@ -1,0 +1,34 @@
+{
+    "name": "shakirwebdev/translation",
+    "description": "Database driven translation for laravel.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohd Shakir",
+            "email": "shakir.webdevelop@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Translation\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [],
+            "providers": [
+                "Translation\\TranslationServiceProvider"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/shakirwebdev/genesis.git"
+        }
+    ],
+    "require": {
+        "shakirwebdev/genesis": "^1.0"
+    }
+}
